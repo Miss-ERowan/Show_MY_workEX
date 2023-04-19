@@ -1,0 +1,77 @@
+body{
+	background-color: 6495ED;
+	/*text-align: center;*/
+	color: white;
+}
+.Selected_Page{
+	background-color: white;
+}
+#Fill_in{
+	background-color: white;
+	color: black;
+	padding: 20px;
+	outline-style: solid;
+	margin-top: 40px;
+	width: 700px;
+}
+
+#LINKS a:hover{
+  background-color: white;
+}
+#LINKS a{
+	border-bottom: 1px solid black;
+}
+#LINKS{
+  text-align: center;
+  background-color: black;
+}
+@media only screen and (max-width: 600px) {
+#Fill_in{
+	background-color: white;
+	color: black;
+	padding: 20px;
+	outline-style: solid;
+	margin-top: 40px;
+	width: 400px;
+}
+#Filled{
+	background-color: white;
+	color: black;
+	width: 700px;
+	margin-top: 30px;
+	outline-style: solid;
+	margin:4px, 4px;
+    padding:10px;
+	padding-bottom:100px;
+    height: 1000px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
+
+#Fill_in input{
+	margin-bottom:40px;
+	margin-right:0px;
+	margin-left:0px;
+}
+#Fill_in label{
+	margin-bottom:40px;
+	margin-right:0px;
+	margin-left:0px;
+}
+}
+
+#Filled{
+	background-color: white;
+	color: black;
+	width: 700px;
+	margin-top: 30px;
+	outline-style: solid;
+	margin:4px, 4px;
+    padding:10px;
+	padding-bottom:100px;
+    height: 1000px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+}
